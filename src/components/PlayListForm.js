@@ -48,7 +48,7 @@ export default class PlayListForm extends Component {
   render(){
     return(
       <div className="container">
-        <div>
+        <div >
           <form onSubmit={this.addToList} className="form">
             <p>User Name:</p>
             <input
@@ -81,7 +81,10 @@ export default class PlayListForm extends Component {
               name="songNotes"
               value={this.state.songNotes}
               placeholder=''
+              rows='5'
+              cols='30'
             />
+            <br />
             <button type='submit'>Add</button>
           </form>
         </div>

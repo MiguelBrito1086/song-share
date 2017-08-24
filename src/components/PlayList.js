@@ -35,12 +35,14 @@ class PlayList extends Component {
     })
     return (
       <div>
-        <div>
+        <div className='updateButton'>
           <button type='submit' onClick={this.fetchData}>
             Update List
           </button>
         </div>
-        { songs }
+        <div className='bubble'>
+          { songs }
+        </div>
       </div>
     )
   }

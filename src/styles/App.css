@@ -1,24 +1,53 @@
-.App {
+h1 {
+  padding: 1em;
   text-align: center;
+  width: 100%;
+  margin: 0;
+  font-family: 'Signika', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.title {
+  background-color: #ede252;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.content {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'IM Fell Great Primer', serif;
+  background-color: #65524D;
+  color: #CEC1AA;
 }
 
-.App-intro {
-  font-size: large;
+.updateButton {
+  margin-top: 2em;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.container {
+  margin-top: 1em;
+}
+
+input {
+  margin-bottom: 3em;
+  margin-left: .75em;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+textarea {
+  margin-bottom: 3em;
+  margin-left: .75em
+}
+
+.bubble {
+  margin-bottom: .5em;
+  color: #65524D;
+}
+
+.playListItem {
+  background-color: #CCC7B9;
+  border-radius: 10px;
 }
