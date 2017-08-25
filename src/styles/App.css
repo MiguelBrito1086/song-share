@@ -1,13 +1,25 @@
 h1 {
   padding: 1em;
-  text-align: center;
-  width: 100%;
+  /*text-align: center;*/
   margin: 0;
   font-family: 'Signika', sans-serif;
+  color: #473d3b;
 }
 
 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #ede252;
+  box-shadow: 0px 10px 15px #2f2e1a;
+  position: relative;
+  z-index: 1;
+}
+
+.cloud {
+  width: 3em;
+  height: 3em;
 }
 
 .content {
@@ -27,8 +39,16 @@ h1 {
 }
 
 input {
-  margin-bottom: 3em;
-  margin-left: .75em;
+  margin: .25em 0em 3em .75em;
+  background-color: #EAF9D9;
+  border: none;
+  padding: .3em;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
 }
 
 p {
@@ -38,8 +58,16 @@ p {
 }
 
 textarea {
-  margin-bottom: 3em;
-  margin-left: .75em
+  margin: .25em 0em 3em .75em;
+  background-color: #EAF9D9;
+  border: none;
+  padding: .3em;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+textarea:focus {
+  outline: none;
 }
 
 .bubble {
@@ -50,4 +78,27 @@ textarea {
 .playListItem {
   background-color: #CCC7B9;
   border-radius: 10px;
+  padding: .5em;
+  font-size: 18px;
+  width: 22em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+button {
+  background-color: #ede252;
+  border: none;
+  padding: .5em 1em .5em 1em;
+  font-size: 16px;
+  color: #65524D;
+  font-family: 'Signika', sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.addButton {
+  margin-left: .75em;
 }

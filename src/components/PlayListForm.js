@@ -85,7 +85,7 @@ export default class PlayListForm extends Component {
               cols='30'
             />
             <br />
-            <button type='submit'>Add</button>
+            <button type='submit' className='addButton'>Add</button>
           </form>
         </div>
         <div>

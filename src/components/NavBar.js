@@ -1,11 +1,13 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
+import cloud from './cloud.png';
 
 class NavBar extends Component {
 
   render() {
     return (
-    <div>
-      <h1>Play Somethin' Already!</h1>
+    <div className='title'>
+      <img src={cloud} alt='cloud' className='cloud'/>
+      <h1>PlayList Cloud!</h1>
     </div>
   )}
 }
